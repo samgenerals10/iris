@@ -1,0 +1,55 @@
+.preOrde{
+    color: #1D2C0A !important;
+font-size: 14px !important;
+font-weight: 400 !important;
+line-height: normal !important;
+border: 1px solid #1D2C0A !important;
+border-radius: none !important;
+background: #FEFFFE !important;
+width: 125px;
+height: 45px;
+margin-left: 870%;
+}
+.button-Box{
+    padding-top: 9px;
+}
+.shopcart{
+    color: #1D2C0A;
+    width: 100px;
+height: 30px;
+flex-shrink: 0;
+margin-left: 67rem;
+
+}
+
+.shopCart-box{
+    padding-top: 14px;
+}
+.firstNavbar-items{
+    display: flex !important;
+    justify-content: space-around !important;
+}
+.irin-logo{
+    width: 106px;
+height: 57px;
+margin-left: 550%;
+}
+
+.Menu-iconBox{
+    padding-top: 15px;
+} 
+.menu-icon{
+     font-weight: bolder !important;
+     color: black;
+     font-size: 25px;
+}
+.firstNavber-box{
+    /* border-bottom: gray 1px solid; */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.icons{
+    width: 30px;
+height: 30px;
+flex-shrink: 0;
+gap: 2%;
+}
