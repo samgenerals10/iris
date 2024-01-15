@@ -53,3 +53,27 @@ height: 30px;
 flex-shrink: 0;
 gap: 2%;
 }
+.dropdown-menu{
+    position: absolute;
+    top: 100%; /* Position the dropdown below the parent element */
+    right: 20;
+    display: none; /* Hide the dropdown by default */
+    background-color: #fff; /* Background color of the dropdown */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 226px;
+height: 206px;
+}
+
+.dropdown-menu.active {
+    display: block;
+  }
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    margin: 20px 0;
+    margin-left: 10px;
+    cursor: pointer;
+  }

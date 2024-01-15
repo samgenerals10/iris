@@ -10,6 +10,9 @@ import Support from '../components/Support/Support'
 import Checkout from '../components/Checkout/Checkout'
 import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Footer/Footer'
+import Subscribe from '../components/Subscribe/Subscribe'
+import ProductInfo from '../components/ProductInfrom/ProductInfo'
+
 
 
 function Routers() {
@@ -27,7 +30,9 @@ function Routers() {
             <Route path='/Product' element={<Products/>}/>
             <Route path='/support' element={<Support/>}/>
             <Route path='/checkout' element={<Checkout/>}/>
+            <Route path='/ProductInform' element={<ProductInfo/>}/>
         </Routes>
+        <Subscribe/>
         <Footer/>
         </BrowserRouter>
     </div>

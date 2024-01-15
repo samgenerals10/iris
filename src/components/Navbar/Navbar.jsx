@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from 'react';
 import "../Navbar/navbar.css";
 import { Navbar, Nav, Container, Button, NavDropdown } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 import { RxHamburgerMenu } from "react-icons/rx";
 import irinImag from "../Navbar/Image/irinImage.png";
 import { MdShoppingCart } from "react-icons/md";
@@ -9,15 +10,38 @@ import instagram from "../Navbar/Image/Instagram.png";
 import whatsapp from "../Navbar/Image/WhatsApp.png";
 
 const DoubleNavbar = () => {
+  const [isDropdownOpen, setDropdownOpen] = useState(false);
+
+  const handleToggleDropdown = () => {
+    setDropdownOpen(!isDropdownOpen);
+  };
+
+  const handleDropdownItemClick = () => {
+
+    setDropdownOpen(false);
+  }
   return (
     <div>
       {/* First Navbar */}
       <Navbar className="firstNavber-box">
         <Container>
           <div className="d-flex justify-content-between">
-            <div className="Menu-iconBox ">
-              <RxHamburgerMenu className="menu-icon" />
+            <div className="Menu-iconBox " >
+              <RxHamburgerMenu className="menu-icon"  onClick={handleToggleDropdown} />
             </div>
+            {isDropdownOpen && (
+                <div className="dropdown-menu active">
+                  <ul>
+                    <li onClick={handleDropdownItemClick}>Home</li>
+                    <li onClick={handleDropdownItemClick}>About us</li>
+                    <li onClick={handleDropdownItemClick}>Categories</li>
+                    <li onClick={handleDropdownItemClick}>Contacts</li>
+                    {/* Add more items as needed */}
+                  </ul>
+                </div>
+              )}
+
+          
             <div className="logo-box">
               <img src={irinImag} alt="Logo" className="irin-logo" />
             </div>
@@ -112,10 +136,10 @@ const DoubleNavbar = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mx-auto gap-5 ">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">About us</Nav.Link>
-            <Nav.Link href="#home">Categories</Nav.Link>
-            <Nav.Link href="#link">Contact</Nav.Link>
+            <Nav.Link as={Link} to="/home" >Home</Nav.Link>
+            <Nav.Link as={Link} to="/about" >About us</Nav.Link>
+            <Nav.Link as={Link} to="/Categories">Categories</Nav.Link>
+            <Nav.Link as={Link}  to="/support">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
