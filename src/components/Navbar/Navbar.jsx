@@ -12,7 +12,7 @@ const DoubleNavbar = () => {
   return (
     <div>
       {/* First Navbar */}
-      <Navbar className="firstNavber-box">
+      <Navbar className="firstNavber-box" style={{position:"fixed"}}>
         <Container>
           <div className="d-flex justify-content-between">
             <div className="Menu-iconBox ">
@@ -23,6 +23,9 @@ const DoubleNavbar = () => {
             </div>
             <div className="button-Box">
               <button className="preOrde">Pre-order now</button>
+            </div>
+            <div>
+              
             </div>
             <div className="shopCart-box">
               <MdShoppingCart className="shopcart" />
