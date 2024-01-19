@@ -1,0 +1,17 @@
+.preOrde{
+    color: #1D2C0A !important;
+font-size: 14px !important;
+font-weight: 400 !important;
+line-height: normal !important;
+border: 1px solid #1D2C0A !important;
+background: #FEFFFE !important;
+width: 125px;
+height: 45px;
+
+}
+.button-Box{
+    margin-left: 200%;
+    /* height: 10px; */
+    /* width: 0px; */
+}
+

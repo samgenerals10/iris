@@ -1,13 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import "../Navbar/navbar.css";
 import { Navbar, Nav, Container, Button, NavDropdown } from "react-bootstrap";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
 import irinImag from "../Navbar/Image/irinImage.png";
 import { MdShoppingCart } from "react-icons/md";
 import facebook from "../Navbar/Image/Facebook.png";
 import instagram from "../Navbar/Image/Instagram.png";
 import whatsapp from "../Navbar/Image/WhatsApp.png";
+import Preorder from "../Pre-order/Pre-order";
 
 const DoubleNavbar = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -17,40 +18,42 @@ const DoubleNavbar = () => {
   };
 
   const handleDropdownItemClick = () => {
-
     setDropdownOpen(false);
-  }
+  };
   return (
     <div>
       {/* First Navbar */}
       <Navbar className="firstNavber-box">
         <Container>
-          <div className="d-flex justify-content-between">
-            <div className="Menu-iconBox " >
-              <RxHamburgerMenu className="menu-icon"  onClick={handleToggleDropdown} />
+          <div className="d-flex">
+            <div className="Menu-iconBox ">
+              <RxHamburgerMenu
+                className="menu-icon"
+                onClick={handleToggleDropdown}
+              />
             </div>
             {isDropdownOpen && (
-                <div className="dropdown-menu active">
-                  <ul>
-                    <li onClick={handleDropdownItemClick}>Home</li>
-                    <li onClick={handleDropdownItemClick}>About us</li>
-                    <li onClick={handleDropdownItemClick}>Categories</li>
-                    <li onClick={handleDropdownItemClick}>Contacts</li>
-                    {/* Add more items as needed */}
-                  </ul>
-                </div>
-              )}
+              <div className="dropdown-menu active">
+                <ul>
+                  <li onClick={handleDropdownItemClick}>Home</li>
+                  <li onClick={handleDropdownItemClick}>About us</li>
+                  <li onClick={handleDropdownItemClick}>Categories</li>
+                  <li onClick={handleDropdownItemClick}>Contacts</li>
+                  {/* Add more items as needed */}
+                </ul>
+              </div>
+            )}
 
-          
             <div className="logo-box">
               <img src={irinImag} alt="Logo" className="irin-logo" />
             </div>
-            <div className="button-Box">
-              <button className="preOrde">Pre-order now</button>
-            </div>
+             
+             
             <div className="shopCart-box">
+            <Preorder />
               <MdShoppingCart className="shopcart" />
             </div>
+
           </div>
         </Container>
       </Navbar>
@@ -106,20 +109,18 @@ const DoubleNavbar = () => {
             >
               <mask
                 id="mask0_414_218"
-               style={{ maskType: 'alpha' }}
+                style={{ maskType: "alpha" }}
                 maskUnits="userSpaceOnUse"
                 x="0"
                 y="0"
                 width={20}
                 height="14"
-                
               >
                 <path
                   fill-rule="evenodd"
                   clip-rule="evenodd"
                   d="M2.92241 12.1306L3.14911 12.265C4.10216 12.8303 5.1946 13.1294 6.30846 13.1299H6.31097C9.7323 13.1299 12.5169 10.3466 12.5182 6.92559C12.5189 5.26783 11.8739 3.70903 10.7019 2.53633C9.52992 1.36356 7.97142 0.717336 6.31345 0.716797C2.8895 0.716797 0.104881 3.49978 0.103516 6.92053C0.103049 8.09286 0.431209 9.23457 1.05257 10.2223L1.20016 10.4571L0.573086 12.7466L2.92241 12.1306ZM10.0734 8.70106C10.0268 8.62321 9.90241 8.57657 9.7158 8.4832C9.5292 8.38984 8.61176 7.93863 8.44071 7.87633C8.26966 7.81417 8.14524 7.78307 8.02086 7.96973C7.89648 8.15642 7.53886 8.57657 7.42996 8.70106C7.32114 8.82553 7.21228 8.84111 7.02571 8.74775C6.8391 8.65442 6.23782 8.45742 5.52506 7.822C4.97031 7.32742 4.5958 6.71667 4.48694 6.52994C4.37812 6.34325 4.47533 6.24227 4.56875 6.1493C4.65271 6.0657 4.75539 5.93143 4.84869 5.82252C4.94199 5.71364 4.97307 5.63579 5.0353 5.51136C5.09749 5.38687 5.06638 5.27799 5.01974 5.18462C4.97307 5.09122 4.59989 4.17316 4.4444 3.7997C4.2929 3.43604 4.13905 3.48528 4.02452 3.47953C3.9158 3.47415 3.79128 3.47296 3.6669 3.47296C3.54248 3.47296 3.34032 3.51961 3.16927 3.70637C2.99822 3.89307 2.51615 4.34434 2.51615 5.26233C2.51615 6.18043 3.18482 7.06725 3.27813 7.19175C3.37143 7.31629 4.59397 9.2001 6.46589 10.0081C6.9111 10.2002 7.2587 10.315 7.5297 10.4009C7.97674 10.5429 8.38351 10.5229 8.70506 10.4749C9.06358 10.4213 9.80911 10.0236 9.9646 9.58803C10.1201 9.15227 10.1201 8.77884 10.0734 8.70106Z"
                   fill="black"
-                 
                 />
               </mask>
               <g mask="url(#mask0_414_218)">
@@ -127,19 +128,25 @@ const DoubleNavbar = () => {
                   d="M16.5663 -3.41602H-4.41699V17.5673H16.5663V-3.41602Z"
                   fill="#1D2C0A"
                   fill-opacity="0.5"
-                  
                 />
               </g>
-           
             </svg>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mx-auto gap-5 ">
-            <Nav.Link as={Link} to="/home" >Home</Nav.Link>
-            <Nav.Link as={Link} to="/about" >About us</Nav.Link>
-            <Nav.Link as={Link} to="/Categories">Categories</Nav.Link>
-            <Nav.Link as={Link}  to="/support">Contact</Nav.Link>
+              <Nav.Link as={Link} to="/home">
+                Home
+              </Nav.Link>
+              <Nav.Link as={Link} to="/about">
+                About us
+              </Nav.Link>
+              <Nav.Link as={Link} to="/Categories">
+                Categories
+              </Nav.Link>
+              <Nav.Link as={Link} to="/support">
+                Contact
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
