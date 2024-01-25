@@ -1,0 +1,36 @@
+/* .addToCart-headerBox{
+    margin:  10% !important;
+    padding-left: 10%;
+    padding-right: 5%;
+    background: #0B1302;
+    flex-shrink: 0;
+    color: floralwhite;
+    width: 1042px;
+height: 40px;
+}
+
+.item-box{
+    bottom: 90% !important;
+    margin-left: 30%;
+} */
+/* .pT{
+    margin-left: 18%;
+}
+.pQ{
+    
+} */
+.add-To-Cart{
+    width: 39% !important;
+}
+.info{
+    width: 56%;
+    height: 56px;
+    }
+
+    .first-info{
+        color: #1D2C0A;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }

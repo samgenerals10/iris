@@ -51,7 +51,10 @@ const DoubleNavbar = () => {
              
             <div className="shopCart-box">
             <Preorder />
-              <MdShoppingCart className="shopcart" />
+            <Link to="/AddtoCart">
+            <MdShoppingCart className="shopcart" />
+            </Link>
+            
             </div>
 
           </div>

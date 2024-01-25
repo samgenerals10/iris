@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import  '../ProductInfrom/productInfrom.css'
 import upcyledTable from "../ProductInfrom/image/upcyledMetalTable.svg";
 import  metalTeble1 from "../ProductInfrom/image/meralTable1.svg"
@@ -6,18 +6,20 @@ import metalTable from "../ProductInfrom/image/metalTable.svg"
 import metal  from "../ProductInfrom/image/metal.svg"
 import table from "../ProductInfrom/image/table.svg"
 import home from "../ProductInfrom/image/home.svg"
+import BtnAddToCart from "../BtnAddToCart/BtnAddToCart"
+
 
 function ProductInfo() {
-    const [quantity, setQuantity] = useState(1);
-    const handleIncrease = () => {
-        setQuantity(quantity + 1);
-      };
+    // const [quantity, setQuantity] = useState(1);
+    // const handleIncrease = () => {
+    //     setQuantity(quantity + 1);
+    //   };
     
-      const handleDecrease = () => {
-        if (quantity > 1) {
-          setQuantity(quantity - 1);
-        }
-      };
+    //   const handleDecrease = () => {
+    //     if (quantity > 1) {
+    //       setQuantity(quantity - 1);
+    //     }
+    //   };
   return (
     <>
       <div className="container mt-5 py-5">
@@ -31,11 +33,12 @@ function ProductInfo() {
           <div className="col-lg-6 col-sm-6">
             <p className="upcycledText">Upcycled Metal Table</p>
             <p className="upcycled-Money">$500.00</p>
-            <button className="quantity">
+            <BtnAddToCart/>
+            {/* <button className="quantity">
               <span onClick={handleIncrease}>+</span>
               <span>{quantity}</span>
               <span onClick={handleDecrease} >-</span>
-            </button>
+            </button> */}
             <p className="composition-text mt-4">Composition</p>
             <p className="item-text">
               Lorem ipsum dolor sit amet consectetur. Non non dis senectus est
