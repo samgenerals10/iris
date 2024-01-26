@@ -80,3 +80,7 @@ ul{
     margin-left: 10px;
     cursor: pointer;
   }
+.listLink{
+    color: #000; /* Set the text color */
+    text-decoration: none; /* Remove underline */
+}

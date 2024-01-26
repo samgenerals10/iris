@@ -35,10 +35,12 @@ const DoubleNavbar = () => {
             {isDropdownOpen && (
               <div className="dropdown-menu active">
                 <ul>
-                  <li onClick={handleDropdownItemClick}>Home</li>
-                  <li onClick={handleDropdownItemClick}>About us</li>
-                  <li onClick={handleDropdownItemClick}>Categories</li>
-                  <li onClick={handleDropdownItemClick}>Contacts</li>
+              <Link to="/home" className="listLink"><li onClick={handleDropdownItemClick}>Home</li></Link>
+              <Link to="/about" className="listLink"> <li onClick={handleDropdownItemClick}>About us</li></Link>
+              <Link to="/categories" className="listLink">  <li onClick={handleDropdownItemClick}>Categories</li></Link>
+              <Link to="/contacts" className="listLink"><li onClick={handleDropdownItemClick}>Contacts</li></Link>
+                
+                  
                   {/* Add more items as needed */}
                 </ul>
               </div>

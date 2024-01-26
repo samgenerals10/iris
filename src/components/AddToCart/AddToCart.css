@@ -1,24 +1,4 @@
-/* .addToCart-headerBox{
-    margin:  10% !important;
-    padding-left: 10%;
-    padding-right: 5%;
-    background: #0B1302;
-    flex-shrink: 0;
-    color: floralwhite;
-    width: 1042px;
-height: 40px;
-}
 
-.item-box{
-    bottom: 90% !important;
-    margin-left: 30%;
-} */
-/* .pT{
-    margin-left: 18%;
-}
-.pQ{
-    
-} */
 .add-To-Cart{
     width: 39% !important;
 }
@@ -34,3 +14,19 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
     }
+
+.btn-AddCart{
+    border: 1px solid #0B1302;
+background: #FEFFFE;
+width: 343px;
+height: 60px;
+flex-shrink: 0;
+}
+
+.btn-AddCart:hover{
+    background: #1D2C0A;
+    color: aliceblue;
+}
+.btn-Box{
+    margin-left: 80%;
+}

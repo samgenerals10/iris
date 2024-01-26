@@ -2,6 +2,9 @@ import React from 'react'
 import  "../AddToCart/AddToCart.css"
 import upcyledMetalTable from "../AddToCart/image/UpCyled Metal Table.svg"
 import  womanimage from  "../AddToCart/image/womanIamge.svg"
+import Art from "../AddToCart/image/Art.svg"
+import homeThing from  "../AddToCart/image/homeThing.svg"
+
 import BtnAddToCart from "../BtnAddToCart/BtnAddToCart"
 
 
@@ -9,7 +12,7 @@ import BtnAddToCart from "../BtnAddToCart/BtnAddToCart"
 function AddToCart() {
   return (
     <>
-    <div className='container mt-5' >
+    <div className='container mt-5 py-5' >
     <table class="table">
   <thead className="table-dark">
     <tr>
@@ -52,7 +55,7 @@ function AddToCart() {
     </tr>
     <tr>
     <td className='d-flex '>
-        <img src={upcyledMetalTable} alt='metalTable'/>
+        <img src={Art} alt='metalTable'/>
         <div className=' '>
         <p className='first-info m-3'>Upcycled Metal Table</p>
         <p className='m-3 info'>Lorem ipsum dolor sit amet consectetur. Non non dis senectus est quis nunc...</p>
@@ -64,7 +67,7 @@ function AddToCart() {
     </tr>
     <tr>
     <td className='d-flex '>
-        <img src={upcyledMetalTable} alt='metalTable'/>
+        <img src={homeThing} alt='metalTable'/>
         <div className=' '>
         <p className='first-info m-3'>Upcycled Metal Table</p>
         <p className='m-3 info'>Lorem ipsum dolor sit amet consectetur. Non non dis senectus est quis nunc...</p>
@@ -74,7 +77,17 @@ function AddToCart() {
       <td className='pt-5'><BtnAddToCart/></td>
       <td className='pt-5'>$500.00</td>
     </tr>
+   
   </tbody>
+   <div  className='d-flex btn-Box'>
+    <div className='btn mt-3'>
+      <button className='btn-AddCart'>Total amount- $3000</button>
+    </div>
+    <div className='btn mt-3'>
+      <button className='btn-AddCart'>Proceed to checkout</button>
+    </div>
+   </div>
+
 </table>
 
 
