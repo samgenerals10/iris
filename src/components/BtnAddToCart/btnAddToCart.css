@@ -1,0 +1,16 @@
+.quantity{
+    width: 105px;
+    height: 43px;
+    flex-shrink: 0; 
+    border: 1px solid #0B1302;
+background: #FEFFFE;
+color: rgba(11, 19, 2, 0.70);
+font-family: Laila;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.quantity span {
+    margin: 0 8px; /* Adjust the margin as needed */
+  }

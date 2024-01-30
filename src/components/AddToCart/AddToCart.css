@@ -1,0 +1,32 @@
+
+.add-To-Cart{
+    width: 39% !important;
+}
+.info{
+    width: 56%;
+    height: 56px;
+    }
+
+    .first-info{
+        color: #1D2C0A;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+
+.btn-AddCart{
+    border: 1px solid #0B1302;
+background: #FEFFFE;
+width: 343px;
+height: 60px;
+flex-shrink: 0;
+}
+
+.btn-AddCart:hover{
+    background: #1D2C0A;
+    color: aliceblue;
+}
+.btn-Box{
+    margin-left: 80%;
+}

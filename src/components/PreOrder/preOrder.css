@@ -1,0 +1,29 @@
+.head{
+    background: rgba(169, 179, 136, 0.50);
+}
+.personal-box{
+    color: #1D2C0A;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 140% */
+letter-spacing: -0.1px;
+}
+.pre-text{
+    color: #1D2C0A;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer-btn{
+    border-radius: 6px;
+border: 1px solid #1D2C0A;
+width: 170px;
+height: 44px;
+background:  none;
+}
+.footer-btn:hover{
+    background-color:  #1D2C0A;
+    color: #fff;
+}
