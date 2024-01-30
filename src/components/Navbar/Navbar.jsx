@@ -23,7 +23,7 @@ const DoubleNavbar = () => {
   return (
     <div>
       {/* First Navbar */}
-      <Navbar className="firstNavber-box">
+      <Navbar className="firstNavber-box" style={{position:"fixed"}}>
         <Container>
           <div className="d-flex">
             <div className="Menu-iconBox ">
@@ -51,6 +51,9 @@ const DoubleNavbar = () => {
             </div>
              
              
+            <div>
+              
+            </div>
             <div className="shopCart-box">
             <Preorder />
             <Link to="/AddtoCart">
