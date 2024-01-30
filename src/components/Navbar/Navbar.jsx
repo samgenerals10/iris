@@ -12,7 +12,7 @@ const DoubleNavbar = () => {
   return (
     <div>
       {/* First Navbar */}
-      <Navbar className="firstNavber-box" style={{position:"fixed"}}>
+      <Navbar className="firstNavber-box" data-bs-theme="dark">
         <Container>
           <div className="d-flex justify-content-between">
             <div className="Menu-iconBox ">

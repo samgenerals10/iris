@@ -1,0 +1,414 @@
+.home-mainbox{
+    margin-top: 5%;
+}
+
+
+/* First Row Text Title and Image */
+.home-first-row {
+    margin-top: 2%; margin-bottom: 1% ;
+}
+
+.home-first-row-col1{
+    padding-left: 7%; margin-top: 2%;
+}
+
+.home-first-row-col-h1{
+    font-weight: 700;margin-bottom:5%; gap: 50;
+}
+
+.home-first-row-col1-botton-box{
+    width: 20%; font-weight: 700; height: 10%; background: #FEFFFE; border: 1px #1D2C0A solid; display: flex; align-content: center; justify-content: center;
+}
+
+.home-first-row-col1-botton-box-text{
+    color: #1D2C0A; font-size: 16;font-family: Lancelot; font-weight: 400;word-Wrap: break-word; display: grid; place-items: center;
+}
+
+.home-first-row-col2{
+    display: grid; place-items: center;
+}
+
+.home-first-row-col2-image{
+    padding-right: 5%;padding-left: 10%;width: 100%;height: 100%;
+}
+
+/* Second Row Two Images  */
+.home-second-row-col1{
+    margin: 0%;
+    width: 50%;
+}
+
+.home-second-row-col1-image1{
+    width: 80%; height: 100%;justify-items: center; padding: 0%;margin: 0%; padding: 0%;
+}
+
+.home-second-row-col2-image2{
+    width: 80%; height: 100% ;
+}
+
+/* Third Row Spotlight Section with four Images */
+
+.home-third-row{
+    display: flex;justify-items: center;place-content: center; margin-top: 5%; margin-bottom: 5%,
+}
+
+.home-third-row-title-spotlight{
+    color: #1D2C0A; font-size: 32; font-family: Laila;font-weight: 400;word-wrap: break-word;display: grid;place-items: center; margin-bottom: 2%;
+}
+
+.home-third-row-col1-spotlight{
+    display: grid;place-items: center; justify-content: center; justify-items: center; align-content: center; align-items: center;
+}
+
+.home-third-row-col1-spotlight-image1{
+    width: 100%; height: 100%; display: flex; place-items: center; margin-bottom: 3%;
+}
+
+.home-third-row-col1-details{
+    color: #1D2C0A; font-size: 15; font-family: Laila;font-weight: 400; word-wrap: break-word; display: grid;place-items: center;
+}
+
+.home-third-row-col1-details-price{
+    color: #1D2C0A;font-size: 15; font-family: Laila;font-weight: 500; word-wrap: break-word;display: flex;justify-content: center;margin-top: 2%;
+}
+
+.home-third-row-col2-spotlight{
+    display: grid;place-content: center;justify-content: center;justify-items: center;align-content: center;align-items: center
+}
+
+.home-third-row-col2-image2{
+    width: 100%;height: 100%; display: flex;justify-content: center;justify-items: center; align-content: center; margin-bottom: 3%;
+}
+
+.home-third-row-col2-details{
+    color: #1D2C0A; font-size: 15;font-family: Laila; font-weight: 400;word-wrap: break-word;display: flex;justify-content: center;margin-top: 2%,
+}
+
+.home-third-row-col2-details-price{
+    color: #1D2C0A;font-size: 15;font-family: Laila; font-weight: 500; word-wrap: break-word; display: flex; justify-content: center,
+}
+
+.home-third-row-col3-spotlight{
+    display: grid;place-items: center; justify-content: center; justify-items: center; align-content: center; align-items: center;
+}
+
+.home-third-row-col3-spotlight-image3{
+    width: 100%; height: 100%; display: grid; justify-content: center; margin-bottom: 3%;
+}
+
+.home-third-row-col3-details{
+    color: #1D2C0A; font-size: 15;font-family: Laila; font-weight: 400; word-wrap: break-word;display: flex;justify-content: center;margin-top: 2%;
+}
+
+.home-third-row-col3-details-price{
+    color: #1D2C0A; font-size: 15; font-family: Laila; font-weight: 500; word-wrap: break-word; display: flex; justify-content: center; margin-top: 2%;
+}
+
+.home-third-row-col4-spotlight{
+    display: grid; place-items: center; justify-content: center; justify-items: center; align-content: center; align-items: center;
+}
+
+.home-third-row-col4-spotlight-image4{
+    width: 100%; height: 100%; display: grid; justify-content: center;
+}
+
+.home-third-row-col4-details{
+    color: #1D2C0A; font-size: 15; font-family: Laila; font-weight: 400; word-wrap: break-word;display: flex; justify-content: center; margin-top: 5%;
+}
+
+.home-third-row-col4-details-price{
+    color: #1D2C0A; font-size: 15;font-family: Laila; font-weight: 500; word-wrap: break-word; display: flex; justify-content: center;
+}
+
+
+/* Fourth Row "Why choose Us" Section with three coloms */
+.home-fourth-row-box{
+    width: 100%; height: 100%; background: #A9B388; display: grid; place-items: center;
+}
+
+.home-fourth-row-title-whyChooseUs{
+    color: white; font-size: 32; font-family: Laila; font-weight: 700; word-wrap: break-word; margin-top: 5%;
+}
+
+.home-fourth-text{
+    width: 100%; height: 100%; text-align: center;color: white;font-size: 16; font-family: Laila; font-weight: 400; word-wrap: break-word; margin-top: 2%; padding: 2%; padding-bottom: 1%;
+              /* // marginBottom: "2%" */
+}
+
+.home-fourth-row{
+    display: flex; place-items: center; padding: 3%;
+}
+
+.home-fourth-row-col1{
+    display: grid; place-items: center;
+}
+
+.home-fourth-row-col1-firstBox{
+    width: 100%; height: 100%; opacity: 0.8; background: #FEFFFE;
+}
+
+.home-fourth-row-col1-secondBox{
+    width: 100%;height: 100%; color: #1D2C0A; font-size: 17;font-family: Laila; font-weight: 400; word-wrap: break-word; padding: 16.45%; display: grid;place-items: center;
+}
+
+.home-fourth-row-col1-title{
+    color: #1D2C0A;font-size: 22;font-family: Laila;font-weight: 600;word-wrap: break-word;display: grid;place-items: start;flex: start; margin-bottom: 3%;
+}
+
+.home-fourth-row-col2{
+    display: grid; place-items: center;
+}
+
+.home-fourth-row-col2-firstBox{
+    width: 100%; height: 100%; opacity: 0.8;background: #FEFFFE;
+}
+
+.home-fourth-row-col2-secondBox{ 
+    width: 100%;height: 100%; color: #1D2C0A; font-size: 17; font-family: Laila; font-weight: 400; word-wrap: break-word; padding: 16%; display: grid; place-items: center;
+}
+
+.home-fourth-row-col2-title{
+    color: #1D2C0A;font-size: 22;font-family: Laila;font-weight: 600;word-wrap: break-word;display: grid;place-items: start;flex: start;margin-bottom: 3%;
+}
+
+.home-fourth-row-col3{
+    display: grid; place-items: center;
+}
+
+.home-fourth-row-col3-firstBox{
+    width: 100%; height: 100%; opacity: 0.8;background: #FEFFFE,
+}
+
+.home-fourth-row-col3-secondBox{
+    width: 100%; height: 100%;color: #1D2C0A;font-size: 17;font-family: Laila;font-weight: 400;word-wrap: break-word;padding: 16%;display: grid;place-items: center;
+}
+
+.home-fourth-row-col3-title{
+    color: #1D2C0A;font-size: 22;font-family: Laila;font-weight: 600;word-wrap: break-word;display: grid;place-items: start;flex: start;margin-bottom: 3%;
+}
+
+
+/* Fith Row New Arrival section */
+
+.home-fith-row-title-newArrival{
+    color: #1D2C0A; font-size: 32;font-family: Laila;font-weight: 400;word-wrap: break-word;display: flex;justify-content: center;
+}
+
+.home-fifth-row-row{
+    display: flex;justify-items: center;place-content: center;margin-bottom: 5%;
+}
+
+.home-fifth-row-row-col1{
+    display: grid; justify-items: center;place-content: center; margin-top: 5%;margin-bottom: 5%;
+}
+
+.home-fifth-row-row-col1-image1{
+    width: 304px;height: 603px;top: 2527px; left: 110px;margin-bottom: 15%;
+}
+
+.home-fifth-row-row-col1-image1-details{
+    color: #1D2C0A;font-size: 15;font-family: Laila;font-weight: 400;word-wrap: break-word;text-align: left;
+}
+
+.home-fifth-row-row-col1-image1-details-price{
+    color: #1D2C0A; font-size: 15;font-family: Laila;font-weight: 500;word-wrap: break-word;display: flex;justify-items: start;
+}
+
+.home-fifth-row-row-col2{
+    display: grid;justify-items: center;place-content: center;margin-top: 5%;margin-bottom: 5%;padding-top: 20%,
+}
+
+.home-fifth-row-row-col2-image2{
+    width: 254px; height: 332px;top: 2798px;left: 453px;margin-bottom: 15%;
+}
+
+.home-fifth-row-row-col2-image2-details{
+    color: #1D2C0A; font-size: 15;font-family: Laila;font-weight: 400;word-wrap: break-word;
+}
+
+.home-fifth-row-row-col2-image2-details-price{
+    color: #1D2C0A; font-size: 15;font-family: Laila;font-weight: 500;word-wrap: break-word;
+}
+
+.home-fifth-row-row-col3{
+    display: grid; justify-items: center; place-content: center; margin-top: 5%; margin-bottom: 5%; padding-top: 5%;
+}
+
+.home-fifth-row-row-col3-image3{
+    width: 425px; height: 521px; top: 2609px; left: 745px; margin-bottom: 15%;
+}
+
+.home-fifth-row-row-col3-image3-details{
+    color: #1D2C0A; font-size: 15; font-family: Laila; font-weight: 400; word-wrap: break-word;
+}
+
+.home-fifth-row-row-col3-image3-details-price{
+    color: #1D2C0A; font-size: 15; font-family: Laila; font-weight: 500; word-wrap: break-word;
+}
+
+/* Sixth Row Pre-Order / Customise / Buy Section */
+
+.home-sixth-row{
+    width: 100%;height: 800px; top: 3311px;background-color: #C4661F33;
+}
+
+.home-sixth-row-title-pre-Ordercustomize{
+    color: #1D2C0A; font-size: 32; font-family: Laila; font-weight: 400; word-wrap: break-word; display: flex; justify-content: center; padding: 2%;
+}
+
+.home-sixth-row-col1{
+    padding-left: 12%; width: 100%;
+}
+
+.home-sixth-row-col1-image1{
+    width: 400px; height: 559px; box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home-sixth-row-col1-image1-details{
+    color: #1D2C0A; font-size: 15; font-family: Laila; font-weight: 400; word-wrap: break-word;
+}
+
+.home-sixth-row-col1-image1-details-two{
+    width: 114px; height: 39px; color: #1D2C0A; font-size: 14; font-family: Lancelot; font-weight: 400; word-wrap: break-word; display: grid; justify-content: center; align-content: center; border: 1px #1D2C0A solid;
+}
+
+.home-sixth-row-col2{
+    padding-left: 2%; padding-top: 5%; width: 50%;
+}
+
+.home-sixth-row-col2-image2{
+    width: 400px; height: 427px; top: 3530px; box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25); display: flex; justify-content: center; margin-bottom: 3%;
+}
+
+.home-sixth-row-col2-image2-details{
+    color: #1D2C0A; font-size: 15; font-family: Laila; font-weight: 400; word-wrap: break-word;
+}
+.home-sixth-row-col2-image2-details-two{
+    width: 114px; height: 39px; color: #1D2C0A; font-size: 14; font-family: Lancelot; font-weight: 400; word-wrap: break-word; display: grid; justify-content: center; align-content: center; border: 1px #1D2C0A solid;
+}
+
+/* Seventh Row Save The Earth Section */
+
+.home-seventh-row-main-box{
+    height: 50%; 
+}
+
+.home-seventh-row-col1{
+    padding-top: 7%;
+}
+
+.home-seventh-row-col1-title{
+    width: 300px;height: 38px;top: 4290px;left: 110px;font-family: Lato;font-size: 32px;font-weight: 700%;line-height: 38px; letter-spacing: 0em; text-align: left; padding-left: 10%;
+}
+
+.home-seventh-row-col1-title-text{
+    width: 100%; height: 30%; color: #1D2C0A; font-size: 20px; font-family: Lato; font-weight: 500;word-wrap: break-word;display: grid;justify-content: left;padding-left: 10%;padding-bottom: 5%;padding-top: 2%;
+}
+
+.home-seventh-row-col1-title-learnMore{
+    height: 50%; color: #1D2C0A; font-size: 20; font-family: Lato; font-style: italic; font-weight: 700; word-wrap: break-word;padding-left: 10%;padding-bottom: 1%;
+}
+
+.home-seventh-row-col1-iconsbox{
+    display: flex; justify-content: left; padding-left: 10%; gap: 10px;
+}
+
+.home-seventh-row-col1-icon1{
+    width: 23px; height: 21px; top: 4611px; left: 143px; border-radius: 30px;
+}
+
+.home-seventh-row-col1-icon2{
+    width: 23px; height: 21px; top: 4611px; left: 143px; border-radius: 30px;
+}
+
+.home-seventh-row-col2-image{
+    width: 540px; height: 488px; top: 4284px; left: 630px; padding-top: 10%; padding-left: 2%;
+}
+
+/* Home Eigth Row Subscribe To Our News Letter */
+
+.home-eighth-row-newsletter-mainbox{
+    width: 100%; height: 400px; left: 2px;background-color: rgba(196, 102, 31, 0.1); margin-top: 3%;display: grid; justify-content: center; margin-bottom: 0%;
+}
+
+.home-eighth-row-newsletter-title{
+    color: #1D2C0A; font-size: 32; font-family: Laila; font-weight: 600; word-wrap: break-word; display: flex; justify-content: center; align-items: center; margin-top: 1%; margin-bottom: 0%;
+}
+
+.home-eighth-row-newsletter-title-text{
+    display: flex; justify-content: center; align-content: center;
+}
+
+.home-eighth-row-newsletter-form{
+    display: flex; justify-content: center;gap: 10px;
+}
+
+.home-eighth-row-newsletter-form-box1{
+    width: 264px; height: 60px; top: 4882px; left: 112px; border-radius: 0px; color: #8C756A80;
+}
+
+.home-eighth-row-newsletter-form-box2{
+    width: 264px; height: 60px; top: 4882px; left: 112px; border-radius: 0px; color: #8C756A80;
+}
+
+.home-eighth-row-newsletter-form-box3{
+    width: 264px; height: 60px; top: 4882px; left: 112px; border-radius: 0px; color: #8C756A80;
+}
+
+.home-eighth-row-newsletter-form-button{
+    width: 156px; height: 60px; background-color: rgba(196, 102, 31, 0.1); border-radius: 0px; border-style: groove black; border-color: black;color: rgba(140, 117, 106, 1)
+}
+
+/* Ninth Row Join US Section */
+
+.home-ninth-row-mainbox{
+    width: 100%; height: 603px; background: rgba(249, 235, 199, 0.68);padding-top: 3%; padding-bottom: 3%;
+}
+
+.home-ninth-row-title-JoinUs{
+    display: flex; justify-content: center; color: #1D2C0A; font-size: 32; font-family: Laila; font-weight: 700; word-wrap: break-word;
+}
+
+.home-ninth-row-title-text{
+    width: 100%; height: 10%; display:flex; justify-content: center;justify-items:stretch; align-items:center; color: #1D2C0A; font-size: 14; font-family: Laila; font-weight: 400; word-wrap: break-word; margin-bottom:2%;
+}
+
+.home-ninth-row-box2{
+    display: flex; justify-content: center; justify-items: normal;
+}
+
+.home-ninth-row-box2-row{
+    display: flex;justify-content: center; justify-items: normal; gap: 60px;
+}
+
+.home-ninth-row-box2-row-col1-image{
+    width: 478px; height: 363px; top: 5270px; left: 112px,
+}
+
+.home-ninth-row-col2-formbox{
+    display: grid; justify-content: center;align-items: center; gap: 10px;
+}
+
+.home-ninth-row-col2-formrow{
+    display: grid; gap: 60px; padding-top: 5%
+}
+
+.home-ninth-row-col2-form-box1{
+    width: 514px; height: 60px; top: 5317px; left: 661px; border-radius: 0px; color: #A9B3881A;
+}
+
+.home-ninth-row-col2-form-box2{
+    width: 514px; height: 60px; top: 61px; left: 661px; border-radius: 0px; color: #8C756A80;
+}
+
+.home-ninth-row-col2-form-box3{
+    gap: 2%;display: flex
+};
+
+.home-ninth-row-col2-form-box3-button1{
+    width: 160px; height: 45px; color: #fff; background-color: #A9B388; border-radius: 0px; border-style: groove black; border-color: black;
+};
+
+.home-ninth-row-col2-form-box3-button2{
+    width: 160px; height: 45px; color: #1D2C0A; background-color: #5F6F521A; border-radius: 0px; border-style: groove black; border-color: black
+};
