@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes,Route,Navigate } from 'react-router-dom'
-import Home  from "../components/home/Home"
-import About from '../components/about/About'
+import Home  from "../components/home/home"
+import About from '../components/about/about'
 import Catergories from '../components/Categories/Catergories'
 import PreOrder from '../components/PreOrder/PreOrder'
 import ProductDetails from '../components/ProductDetails/ProductDetails'
