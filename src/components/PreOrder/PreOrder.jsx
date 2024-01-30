@@ -141,7 +141,7 @@ function PreOrder(props) {
           </Col>
           <Col md={6} me-5>
             <div className="text-Box">
-              <p className="gap-3 ">Product name<span className="m-5">Owl art</span></p>
+              <p className="gap-3 ">Product name<span className="me-5">Owl art</span></p>
               <p></p>
               <p>Quantity</p>
               <p>2</p>
