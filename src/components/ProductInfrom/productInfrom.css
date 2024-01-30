@@ -1,0 +1,101 @@
+.upcycledText{
+    color: #1D2C0A;
+font-family: Laila;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.upcycled-Money{
+    color: #1D2C0A;
+font-family: Laila;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.quantity{
+    width: 105px;
+    height: 43px;
+    flex-shrink: 0; 
+    border: 1px solid #0B1302;
+background: #FEFFFE;
+color: rgba(11, 19, 2, 0.70);
+font-family: Laila;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.quantity span {
+    margin: 0 8px; /* Adjust the margin as needed */
+  }
+
+.composition-text{
+    color: #1D2C0A;
+    font-family: Laila;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.item-text{
+    color: rgba(29, 44, 10, 0.80);
+font-family: Laila;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+width: 446px;
+flex-shrink: 0;
+}
+.addCart-Button{
+    width: 446px;
+height: 60px;
+flex-shrink: 0;
+border: 1px solid #1D2C0A;
+background: #FEFFFE;
+color: rgba(11, 19, 2, 0.70);
+font-family: Laila;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.metalTable2{
+    width: 547px;
+height: 582px;
+
+margin-right: 20%;
+
+}
+
+.tableImage{
+    padding-top: 20%;
+}
+.homeImage{
+    margin-left: 4%;
+    padding-top:6%;
+}
+.home-imdiage{
+display: flex;
+}
+.products-teax{
+    color: #1D2C0A;
+font-family: Laila;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.teax-box{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-right: 20%;
+}
+/* .metalTable1{
+    width: 383px;
+height: 549px;
+flex-shrink: 0;
+} */

@@ -9,9 +9,10 @@ import Products from '../components/Products/Products'
 import Support from '../components/Support/Support'
 import Checkout from '../components/Checkout/Checkout'
 import Navbar from '../components/Navbar/Navbar'
-import Footer from '../components/Footer/Footer'
-
-
+// import Footer from '../components/Footer/Footer'
+import Subscribe from '../components/Subscribe/Subscribe'
+import ProductInfo from '../components/ProductInfrom/ProductInfo'
+import AddToCart from "../components/AddToCart/AddToCart"
 function Routers() {
   return (
     <div>
@@ -27,8 +28,11 @@ function Routers() {
             <Route path='/Product' element={<Products/>}/>
             <Route path='/support' element={<Support/>}/>
             <Route path='/checkout' element={<Checkout/>}/>
+            <Route path='/ProductInform' element={<ProductInfo/>}/>
+            <Route path='/AddtoCart' element={<AddToCart/>} />
         </Routes>
-        <Footer/>
+        <Subscribe/>
+        {/* <Footer/> */}
         </BrowserRouter>
     </div>
   )

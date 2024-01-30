@@ -1,0 +1,93 @@
+.home-Decorle {
+    width: 100%;
+    height: 630px;
+  }
+  
+  .catergoirs-Box {
+    width: 150%;
+    color: w;
+  }
+  
+  .image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width: 80%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; /* Set text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+  }
+  .homeText{
+    color: #FEFFFE;
+font-family: Laila;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  
+  .image-container:hover .overlay {
+    opacity: 1;
+  }
+  
+.furntiuer{
+  width: 511px;
+  height: 515px;
+flex-shrink: 0;
+}
+.artsImage{
+  width: 500px;
+  height: 597px;
+   margin-left: 28%;
+} 
+
+
+  .Art-overlay{
+    position: absolute;
+    top: 0;
+    /* right: 0; */
+    left: 28%;
+    width:80%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; /* Set text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+  }
+  
+  .image-container:hover .Art-overlay {
+    opacity: 1;
+  }
+  
+
+  .furntiner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 84%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; /* Set text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+  }
+  
+  .image-container:hover .furntiner-overlay {
+    opacity: 1;
+  }

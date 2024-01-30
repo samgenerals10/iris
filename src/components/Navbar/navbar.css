@@ -1,4 +1,4 @@
-.preOrde{
+/* .preOrde{
     color: #1D2C0A !important;
 font-size: 14px !important;
 font-weight: 400 !important;
@@ -12,19 +12,22 @@ margin-left: 870%;
 }
 .button-Box{
     padding-top: 9px;
-}
+} */
 .shopcart{
     color: #1D2C0A;
     width: 100px;
 height: 30px;
-flex-shrink: 0;
-margin-left: 67rem;
-
+position: absolute;
+bottom: 2rem;
+margin-left: 57rem;
 }
 
 .shopCart-box{
-    padding-top: 14px;
+    /* padding-top: 14px;    */
+    margin-left: 100%;  
+    
 }
+
 .firstNavbar-items{
     display: flex !important;
     justify-content: space-around !important;
@@ -53,4 +56,32 @@ margin-left: 550%;
 height: 30px;
 flex-shrink: 0;
 gap: 2%;
+}
+.dropdown-menu{
+    position: absolute;
+    top: 100%; /* Position the dropdown below the parent element */
+    right: 20;
+    display: none; /* Hide the dropdown by default */
+    background-color: #fff; /* Background color of the dropdown */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 226px;
+height: 206px;
+}
+
+.dropdown-menu.active {
+    display: block;
+  }
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    margin: 20px 0;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+.listLink{
+    color: #000; /* Set the text color */
+    text-decoration: none; /* Remove underline */
 }
